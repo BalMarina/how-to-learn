@@ -114,6 +114,77 @@
     margin-bottom: 0;
 }
 
+.techniques {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 920px;
+}
+
+.cards__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    margin-right: 100px;
+}
+
+:nth-child(3n) {
+    margin-right: 0;
+}
+
+.cards__item:last-of-type {
+    margin-right: 340px;
+}
+
+.cards__image {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 160px;
+    height: 160px;
+    margin: 60px 40px 43px;
+}
+
+.cards__title {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video__iframe {
+    width: 515px;
+    height: 316px;
+}
+
+.oakley {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
 .digits {
     display: flex;
     flex-direction: column;
@@ -169,6 +240,63 @@
     font-weight: normal;
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+.khan {
+    background-color: #f2f2f2;
+}
+
+.khan__container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.khan__author {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.khan__title {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.khan__quote {
+    width: 790px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.khan__quote-author {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.khan__quote-author-subline {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.khan__book-container {
+    display: flex;
+}
+
+.khan__book-pic {
+    width: 620px;
+    height: 608px;
+}
+
+.khan__buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #2f80ed;
+    text-decoration: none;
 }
 
 .feynman {
@@ -261,6 +389,22 @@
     color: white;
     margin-right: 0;
     margin-top: 80px;
+}
+
+.resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resources__logo-zone {
+    margin: 80px auto 217px;
+    width: 1100px;
+}
+
+.resources__logo {
+    width: 270px;
+    height: 38px;
 }
 
 .footer {
